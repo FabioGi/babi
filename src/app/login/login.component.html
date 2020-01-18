@@ -1,0 +1,36 @@
+<ActionBar class="action-bar">
+
+    <NavigationButton ios:visibility="collapsed" icon="res://menu" (tap)="onDrawerButtonTap()"></NavigationButton>
+
+    <ActionItem icon="res://navigation/menu" android:visibility="collapsed" (tap)="onDrawerButtonTap()"
+        ios.position="left">
+    </ActionItem>
+
+    <Label class="action-bar-title" text="Login"></Label>
+
+</ActionBar>
+
+<GridLayout class="page page-content">
+
+    <FlexboxLayout class="page">
+        <StackLayout class="form">
+            <StackLayout class="input-field">
+                <TextField class="input" hint="email"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+
+            <StackLayout class="input-field">
+                <TextField class="input" hint="password"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+
+            <Button text="Log In" class="btn btn-primary"></Button>
+            <Button text="Log In facebook" class="btn btn-primary"></Button>
+            <Button text="Log In Google" class="btn btn-danger"></Button>
+        </StackLayout>
+
+        <Label text="Don’t have an account?"></Label>
+    </FlexboxLayout>
+
+
+</GridLayout>
