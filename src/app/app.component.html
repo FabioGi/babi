@@ -44,6 +44,46 @@
                     <Label col="0" text="&#xf015;" class="fa"></Label>
                     <Label col="1" text="login" class="p-r-10"></Label>
                 </GridLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                    [class.selected]="isComponentSelected('/$questionnaire/objectif')" (tap)="onNavItemTap('/$questionnaire/objectif')">
+                    <Label col="0" text="&#xf015;" class="fa"></Label>
+                    <Label col="1" text="questionnaire" class="p-r-10"></Label>
+                </GridLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                    [class.selected]="isComponentSelected('/$questionnaire/genre')" (tap)="onNavItemTap('/$questionnaire/genre')">
+                    <Label col="0" text="&#xf015;" class="fa"></Label>
+                    <Label col="1" text="genre" class="p-r-10"></Label>
+                 </GridLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                    [class.selected]="isComponentSelected('/$questionnaire/qualite')" (tap)="onNavItemTap('/$questionnaire/qualite')">
+                    <Label col="0" text="&#xf015;" class="fa"></Label>
+                    <Label col="1" text="qualite" class="p-r-10"></Label>
+                </GridLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                    [class.selected]="isComponentSelected('/$questionnaire/autre')" (tap)="onNavItemTap('/$questionnaire/autre')">
+                    <Label col="0" text="&#xf015;" class="fa"></Label>
+                    <Label col="1" text="autre" class="p-r-10"></Label>
+                </GridLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                [class.selected]="isComponentSelected('/$questionnaire/autre2')" (tap)="onNavItemTap('/$questionnaire/autre2')">
+                <Label col="0" text="&#xf015;" class="fa"></Label>
+                <Label col="1" text="autre2" class="p-r-10"></Label>
+                </GridLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                [class.selected]="isComponentSelected('/$questionnaire/niveau')" (tap)="onNavItemTap('/$questionnaire/niveau')">
+                <Label col="0" text="&#xf015;" class="fa"></Label>
+                <Label col="1" text="niveau" class="p-r-10"></Label>
+                </GridLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                [class.selected]="isComponentSelected('/$questionnaire/senior')" (tap)="onNavItemTap('/$questionnaire/senior')">
+                <Label col="0" text="&#xf015;" class="fa"></Label>
+                <Label col="1" text="senior" class="p-r-10"></Label>
+                </GridLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                [class.selected]="isComponentSelected('/$questionnaire/patologie')" (tap)="onNavItemTap('/$questionnaire/patologie')">
+                <Label col="0" text="&#xf015;" class="fa"></Label>
+                <Label col="1" text="pathologie" class="p-r-10"></Label>
+                </GridLayout>
             </StackLayout>
         </ScrollView>
     </GridLayout>

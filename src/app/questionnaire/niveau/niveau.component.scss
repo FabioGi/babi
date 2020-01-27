@@ -1,0 +1,47 @@
+.border{
+    border-bottom-width: 1px;
+    border-bottom-color: #ebebeb;
+    border-bottom-style: solid
+}
+.gr{
+    color: #bdbdbd;
+}
+.dg{
+    color: #8590A7;
+}
+.backbtn{
+    background-image: url('~/img/btn4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+/* Add mobile styles for the component here.  */
+.page {
+    align-items: center;
+    flex-direction: column;
+  }
+  .form {
+    margin-left: 30;
+    margin-right: 30;
+    flex-grow: 1;
+    vertical-align: middle;
+  }
+  .content{
+      height: 100%;
+  }
+
+  .fontset{
+    font-weight: bold;
+    font-size: 20%;
+    
+  }
+  .des{
+    text-align: center;
+  }
+  .taille{
+      width: 90%;
+  }
+
+
+  

@@ -1,0 +1,29 @@
+
+   <!--  <Image src="https://www.camilacabello.com/wp-content/themes/camilacabello/assets/img/top-bg.jpg"></Image> -->
+   <ActionBar>
+    <Label class="action-bar-title" text="ARIAN"></Label>
+</ActionBar>
+<FlexboxLayout class="page">
+    <Progress class="taille" value="50" maxValue="100"></Progress>
+    <StackLayout class="p-20 fontset">
+        <Label textWrap="true" fontAttributes="Bold" 
+         text="Autre:"></Label>
+    </StackLayout>
+
+    <StackLayout class="desc">
+        <Label textWrap="true"
+         text="vous avez des objectifs principaux differents "></Label>
+         <Label textWrap="true"
+         text="nous esperons que vous trouverez votre "></Label>
+         <Label textWrap="true"
+         text="bonheur dans les propositions suivantes: "></Label>
+    </StackLayout>
+
+    <StackLayout  class="form">
+        <Button text="Vous souhaitez vous stabiliser sainement et
+         durablement en repoussant le processus de viellissement"
+         [nsRouterLink]="['/$questionnaire/niveau']" pageTransition="slide" clearHistory="true" ></Button>
+        <Button text="Vous souhaitez vous remettre en forme apres un grave probleme de sante" (tap)="action()"></Button>
+    </StackLayout>
+
+</FlexboxLayout>

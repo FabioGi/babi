@@ -1,0 +1,37 @@
+
+   <!--  <Image src="https://www.camilacabello.com/wp-content/themes/camilacabello/assets/img/top-bg.jpg"></Image> -->
+<ActionBar>
+  <Label justifyContent="space-between" class="action-bar-title p-15" text="ARIAN"></Label>
+</ActionBar>
+
+<FlexboxLayout class="page">
+  <Progress class="taille" value="70" maxValue="100"></Progress>
+    <StackLayout class="p-20 fontset">
+        <Label textWrap="true" fontAttributes="Bold" 
+         text="Quel probleme de sante en particulier?"></Label>
+    </StackLayout>
+
+    <StackLayout class="form">
+      <Label class="body" justifyContent="space-between" class="p-15" text="Novice, fraichement initie ou reprise apres une longue periode d'inactivite.Niveau de depart recommande pour une experience Arian optimale" textWrap="true"></Label>
+      <Button row="2" class="btn btn-rounded-sm btn-margin font-weight-bold t-18 flexbox-item"
+      [nsRouterLink]="['/$questionnaire/senior']" pageTransition="slide" clearHistory="true" text="Je ne sais pas"></Button>
+
+      <Slider value="10" minValue="0" maxValue="100"
+        (valueChange)="onSliderValueChange($event)">
+      </Slider>
+
+    </StackLayout>
+    
+
+    <StackLayout row="1" rows="auto, auto" columns="*, *" class="menu-container taille">
+      <Button row="2" class="btn btn-rounded-sm btn-primary btn-margin font-weight-bold t-18 flexbox-item"
+      [nsRouterLink]="['/$questionnaire/patologie']" pageTransition="slide" clearHistory="true" text="Continuer"></Button>
+    </StackLayout>
+    <!-- <Label class="h1" text="This is a big heading"></Label>
+    <Label class="body" text="I’m a longer sentence with instructions on how you use a particular feature" textWrap="true"></Label>
+    <Button class="btn btn-primary btn-rounded-lg" text="Large rounded corners"></Button>
+    <Progress class="progress m-20" value="50"></Progress>
+    <ActivityIndicator class="activity-indicator" busy="true"></ActivityIndicator> -->
+    <!-- <Button class="btn btn-primary btn-rounded-lg" text="Large rounded corners"></Button> -->
+
+</FlexboxLayout> 

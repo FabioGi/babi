@@ -1,0 +1,132 @@
+.border{
+    border-bottom-width: 1px;
+    border-bottom-color: #ebebeb;
+    border-bottom-style: solid
+}
+.gr{
+    color: #bdbdbd;
+}
+.dg{
+    color: #8590A7;
+}
+.backbtn{
+    background-image: url('~/img/btn4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+/* Add mobile styles for the component here.  */
+.page {
+    align-items: center;
+    flex-direction: column;
+  }
+  .form {
+    margin-left: 30;
+    margin-right: 30;
+    flex-grow: 1;
+    vertical-align: middle;
+  }
+
+  .fontset{
+    font-weight: bold;
+    font-size: 20%;
+    
+  }
+  .des{
+    text-align: center;
+  }
+  .taille{
+      width: 90%;
+  }
+
+
+
+
+  .fa {
+    font-family: "FontAwesome";
+}
+.page {
+    background-color: #ffffff;
+    color: #000000;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #3C59FD;
+    margin: 20 0 30 0;
+}
+
+.btn:highlighted {
+    background-color: #2241F0;
+}
+
+.flexbox-item {
+    width: 95%;
+    text-align: center;
+}
+
+.action-bar {
+    background-color: #3C59FD;
+    color: #ffffff;
+    padding-right: 10;
+}
+.hr {
+    background-color: #3C59FD;
+    width: 95%;
+    margin-top: 21;
+    height: 1;
+}
+
+
+.company-name-container {
+    height: 30%;
+}
+.company-name{
+    margin-top: 60;
+}
+
+.company-logo {
+    flex-grow: 1;
+    height: 30%;
+}
+
+
+/*  Welcome */
+
+.title {
+    color: #3C59FD;
+    margin-top: 20;
+}
+.flexbox-item Label {
+    margin-bottom: 4;
+}
+
+.menu-container {
+    width: 90%;
+}
+
+.menu-item {
+    vertical-align: top;
+    width: 50%;
+    margin-bottom: 16;
+}
+.menu-icon {
+    width: 90;
+    height: 90;    
+    vertical-align: top;
+    border-width: 1;
+    border-radius: 50%;
+    font-size: 36;
+    color: #3C59FD;
+    background-color: #ffffff;
+    border-color: #d8d8d8;
+}
+
+.action-button{
+    font-size: 20;
+}
+
+  

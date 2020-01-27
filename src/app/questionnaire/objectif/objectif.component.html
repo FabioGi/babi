@@ -1,0 +1,27 @@
+
+   <!--  <Image src="https://www.camilacabello.com/wp-content/themes/camilacabello/assets/img/top-bg.jpg"></Image> -->
+   <ActionBar>
+        <Label class="action-bar-title" text="ARIAN"></Label>
+    </ActionBar>
+   <FlexboxLayout class="page">
+    <Progress class="taille" value="30" maxValue="100"></Progress>
+        <StackLayout class="p-20 fontset">
+            <Label textWrap="true" fontAttributes="Bold" 
+             text="Quel est votre objectif ?"></Label>
+        </StackLayout>
+
+        <StackLayout class="desc">
+            <Label textWrap="true"
+             text="cliquer sur votre objectif principal "></Label>
+             <Label textWrap="true"
+             text="         et laisser vous guider "></Label>
+        </StackLayout>
+   
+        <StackLayout  class="form">
+            <Button text="Mincir" [nsRouterLink]="['/$questionnaire/niveau']" pageTransition="slide" clearHistory="true"></Button>
+            <Button text="Mincir et me muscler" [nsRouterLink]="['/$questionnaire/niveau']" pageTransition="slide" clearHistory="true"></Button>
+            <Button text="Me muscler" [nsRouterLink]="['/$questionnaire/niveau']" pageTransition="slide" clearHistory="true"></Button>
+            <Button text="preparation physique orientee" [nsRouterLink]="['/$questionnaire/qualite']" pageTransition="slide" clearHistory="true"></Button>
+            <Button text="Autre" [nsRouterLink]="['/$questionnaire/autre']" pageTransition="slide" clearHistory="true"></Button>
+        </StackLayout>
+   </FlexboxLayout>

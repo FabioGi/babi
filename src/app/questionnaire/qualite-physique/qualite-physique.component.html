@@ -1,0 +1,32 @@
+
+   <!--  <Image src="https://www.camilacabello.com/wp-content/themes/camilacabello/assets/img/top-bg.jpg"></Image> -->
+   <ActionBar>
+    <Label class="action-bar-title" text="ARIAN"></Label>
+</ActionBar>
+<FlexboxLayout class="page" >
+    <Progress class="taille" value="40" maxValue="100"></Progress>
+    <StackLayout class="p-20 fontset">
+        <Label textWrap="true" fontAttributes="Bold" 
+         text="Quel qualité physique en particulier ?"></Label>
+    </StackLayout>
+
+    <StackLayout class="desc">
+        <Label textWrap="true" class="alignement"
+         text="Quelle qualite physique principale devrait etre  "></Label>
+         <Label textWrap="true"
+         text="selon vous au centre de votre prochain cycle "></Label>
+         <Label textWrap="true"
+         text="d'entrainement "></Label>
+    </StackLayout>
+    <StackLayout class="p-20 desc2">
+      <Label textWrap="true" fontAttributes="Bold" 
+       text="La force et la vitesse au centre de vos exigences"></Label>
+  </StackLayout>
+
+    <StackLayout  class="form">
+        <Button text="Puissance" [nsRouterLink]="['/$questionnaire/qualite']" pageTransition="slide" clearHistory="true"></Button>
+        <Button text="Endurance" [nsRouterLink]="['/$questionnaire/qualite']" pageTransition="slide" clearHistory="true"></Button>
+        <Button text="Mobilite" [nsRouterLink]="['/$questionnaire/qualite']" pageTransition="slide" clearHistory="true"></Button>
+    </StackLayout>
+
+</FlexboxLayout>

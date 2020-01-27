@@ -1,0 +1,101 @@
+.border{
+    border-bottom-width: 1px;
+    border-bottom-color: #ebebeb;
+    border-bottom-style: solid
+}
+.gr{
+    color: #bdbdbd;
+}
+.dg{
+    color: #8590A7;
+}
+.backbtn{
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+/* Add mobile styles for the component here.  */
+.page {
+    align-items: center;
+    flex-direction: column;
+  }
+  .form {
+    margin-left: 30;
+    margin-right: 30;
+    flex-grow: 1;
+    vertical-align: middle;
+  }
+
+  .fontset{
+    font-weight: bold;
+    font-size: 20%;
+    
+  }
+  .des{
+    text-align: center;
+  }
+
+
+  .border{
+    border-bottom-width: 1px;
+    border-bottom-color: #ebebeb;
+    border-bottom-style: solid
+}
+.gr{
+    color: #bdbdbd;
+}
+.dg{
+    color: #8590A7;
+}
+.backbtn{
+    background-image: url('~/img/btn4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+/* Add mobile styles for the component here.  */
+.page {
+    align-items: center;
+    flex-direction: column;
+  }
+  .form {
+    margin-left: 30;
+    margin-right: 30;
+    flex-grow: 1;
+    vertical-align: middle;
+  }
+
+  .fontset{
+    font-weight: bold;
+    font-size: 20%;
+    
+  }
+  .des{
+    text-align: center;
+  }
+
+  Image {
+    width: 90%;
+    height: 90%;
+}
+.footer{
+    margin-bottom: 100px;
+}
+.h3{
+    text-align: center;
+    text-align: justify;
+}
+// .fas {
+//     font-family: "Font Awesome 5 Free", "fa-solid-900";
+//     font-weight: 900;
+// }
+
+// .t-36 {
+//     font-size: 36;
+// }
+
+
+  
+

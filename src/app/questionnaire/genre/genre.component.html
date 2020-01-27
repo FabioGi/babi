@@ -1,0 +1,18 @@
+
+   <!--  <Image src="https://www.camilacabello.com/wp-content/themes/camilacabello/assets/img/top-bg.jpg"></Image> -->
+<ActionBar>
+    <Label class="action-bar-title" text="ARIAN"></Label>
+</ActionBar>
+<FlexboxLayout class="page">
+    <Progress class="taille" value="10" maxValue="100"></Progress>
+    <StackLayout class="p-20 fontset">
+        <Label textWrap="true" fontAttributes="Bold" 
+         text="Vous êtes :"></Label>
+    </StackLayout>
+
+    <StackLayout  class="form">
+        <Button text="Homme" [nsRouterLink]="['/$questionnaire/objectif']" pageTransition="slide" clearHistory="true"></Button>
+        <Button text="Femme" [nsRouterLink]="['/$questionnaire/objectif']" pageTransition="slide" clearHistory="true"></Button>
+    </StackLayout>
+
+</FlexboxLayout>

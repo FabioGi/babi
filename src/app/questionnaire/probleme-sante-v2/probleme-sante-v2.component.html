@@ -1,0 +1,25 @@
+
+   <!--  <Image src="https://www.camilacabello.com/wp-content/themes/camilacabello/assets/img/top-bg.jpg"></Image> -->
+   <ActionBar>
+    <Label class="action-bar-title" text="ARIAN"></Label>
+</ActionBar>
+<FlexboxLayout class="page">
+  <Progress class="taille" value="60" maxValue="100"></Progress>
+    <StackLayout class="p-20 fontset">
+        <Label textWrap="true" fontAttributes="Bold" 
+         text="Quel probleme de sante en particulier?"></Label>
+    </StackLayout>
+
+    <StackLayout class="desc">
+        <Label textWrap="true"
+         text="Reevaluer regulierement vos aptitudes physiques "></Label>
+         <Label textWrap="true"
+         text="         avec votre medecin "></Label>
+    </StackLayout>
+
+    <StackLayout  class="form">
+        <Button text="Il s'agit d'une maladie ou d'une intervention touchant au systeme cardio-respiratoire" [nsRouterLink]="['/$questionnaire/patologie']" pageTransition="slide" clearHistory="true"></Button>
+        <Button text="Il s'agit d'un accident ayant touche directement votre systeme locomoteur " [nsRouterLink]="['/$questionnaire/niveau']" pageTransition="slide" clearHistory="true"></Button>
+        <Button text="Il s'agit d'un cancer" [nsRouterLink]="['/$questionnaire/niveau']" pageTransition="slide" clearHistory="true"></Button>
+    </StackLayout>
+</FlexboxLayout>
